@@ -1,6 +1,7 @@
 package LeetCode;
 
 import java.util.*;
+
 public class RepeatedDNAsequence {
 	public static List<String> findRepeatedDnaSequences(String s) {
 		if(s.length()<10) return new ArrayList<String>();
