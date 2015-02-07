@@ -25,7 +25,7 @@ public class Atoi {
 			if(cs.matches(".*[^0-9]+.*")) {
 				v=0;
 			}
-			else {
+			else { 
 				int c = new Integer(cs);
 				int multiplier = (int) Math.pow(10,firstnondigit-i);
 				if(sign==1) {
